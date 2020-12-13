@@ -1,5 +1,5 @@
 body{
-  font-family: serif,"Arial", "メイリオ";
+  font-family: serif,"Arial", "繝｡繧､繝ｪ繧ｪ";
   background-image: url(sushi.png);
 }
 
@@ -88,4 +88,19 @@ section{
 .size{
   width: 300px;
   height: 300px;
+}
+
+@media(max-width: 700px){
+section{
+  width: 100%;
+}
+
+li{
+position: relative;
+left: 0;
+}
+
+
+
+
 }
