@@ -1,5 +1,5 @@
 body{
-  font-family: serif,"Arial", "繝｡繧､繝ｪ繧ｪ";
+  font-family: serif,"Arial", "メイリオ";
   background-image: url(sushi.png);
 }
 
@@ -11,6 +11,8 @@ h1,h2,h3{
 .name,.price{
   font-size: 25px;
 }
+
+
 
 li{
   list-style: none;
@@ -95,12 +97,15 @@ section{
   width: 100%;
 }
 
+.sushi{
+  font-size: 15px;
+}
+
+.kaikei,.Cancel{
+  font-size: 20px;
+}
+
 li{
 position: relative;
 left: 0;
-}
-
-
-
-
 }
