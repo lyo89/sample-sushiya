@@ -1,0 +1,91 @@
+body{
+  font-family: serif,"Arial", "メイリオ";
+  background-image: url(sushi.png);
+}
+
+
+h1,h2,h3{
+  text-align: center;
+}
+
+.name,.price{
+  font-size: 25px;
+}
+
+li{
+  list-style: none;
+  position: relative;
+  left: 320px;
+  font-size: 30px;
+}
+
+
+
+section{
+  width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.menu{
+  text-align: center;
+}
+
+.sushi{
+  font-size: 30px;
+  margin: 30px;
+  border-radius: 5px;
+  background-color: #ffffff;
+  border: #ffffff;
+  outline: none;
+  cursor: pointer;
+}
+
+.sushi:hover{
+  opacity: 0.9;
+}
+
+
+
+.kaikei{
+  font-size: 25px;
+  margin: 20px;
+  background-color: #eb6100;
+  border: #eb6100;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.kaikei:hover{
+  opacity: 0.7;
+}
+
+.Cancel{
+  font-size: 25px;
+  margin: 20px;
+  background-color: #deb887;
+  border: #deb887;
+  color: #fff;
+  outline: none;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  cursor: pointer;
+}
+
+.Cancel:hover{
+  opacity: 0.7;
+}
+
+.button{
+  padding: 50px;
+}
+
+
+.size{
+  width: 300px;
+  height: 300px;
+}
