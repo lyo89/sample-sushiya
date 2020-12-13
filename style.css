@@ -94,9 +94,6 @@ section{
 
 @media(max-width: 700px){
 
-  body{
-    background-color: blue;
-  }
 
   .button{
     padding: 30px;
